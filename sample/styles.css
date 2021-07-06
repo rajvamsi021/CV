@@ -102,12 +102,14 @@ h1 {
 @media(max-width:998px) {
   html {
     font-size: 55%;
+    float: left;
   }
 }
 
 
-@media(max-width:768px) {
+@media(max-width:200px) {
   html {
     font-size: 45%;
+    float: left;
   }
 }
