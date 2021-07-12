@@ -29,6 +29,7 @@ h3 {
 }
 
 .top-container {
+  overflow-x: hidden;
   background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
@@ -187,13 +188,5 @@ hr {
    border-radius: 20px;
    text-decoration: none;
 }
-
-@media only screen and (max-width: 1300px) {
-  .top-container {
-    overflow-x: hidden;
-  }
-  
-}
-
 
 
