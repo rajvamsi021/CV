@@ -188,7 +188,7 @@ hr {
    text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1300px) {
   body {
     overflow-x: hidden;
     color: #40514E;
