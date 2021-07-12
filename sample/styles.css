@@ -188,4 +188,12 @@ hr {
    text-decoration: none;
 }
 
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+}
+
+
 
