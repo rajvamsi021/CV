@@ -196,6 +196,19 @@ hr {
     text-align: center;
     font-family: "Merriweather", serif;
   }
+  
+  .top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+  
+  
+  .top-cloud {
+  position: absolute;
+  right: -50px;
+  top: 0;
+}
 
 }
 
