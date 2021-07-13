@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.header {
+  padding: 50px 15px;
+}
+
+.header a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header a:hover {
+  background-color: #B2B1B9;
+}
+
+.header .right {
+  float: right;
+  margin-right: 20px;
+}
+
+.header .left {
+  margin-left: 20px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  height: 1500px;
+  overflow: hidden;
+}
+
+.image-row1 {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
+.image-row2 {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
+.image-11 img {
+  height: 500px;
+}
+
+.image-12 img {
+  height: 500px;
+  width: 760px;
+}
+
+.image-13 img {
+  height: 500px;
+  width: 800px;
+}
+
+.image-21 img {
+  height: 750px;
+  width: 800px;
+}
+
+.image-22 img {
+  height: 750px;
+  width: 800px;
+}
+
+#about {
+  padding: 20px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+#about h3 {
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#about img {
+  margin-top: 50px;
+  height: 350px;
+  width: 300px;
+}
+
+#about p {
+  padding: 20px 200px;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#about .para {
+  font-size: 25px;
+  color: #D54C4C;
+}
+
+#about .form-filling {
+  margin-top: 20px;
+}
+#about .form-filling label{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#about .form-filling input {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 60%;
+  height: 40px;
+  padding-left: 15px;
+}
+
+#about .form-filling .button {
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding: 5px 28.4%;
+  background-color: #444444;
+  color: white;
+  border-bottom: none;
+  border-right: none;
+  margin-bottom: 30px;
+}
+
+#about .form-filling .button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  color: black;
+}
+
+#about .copy-right {
+  color: black;
+}
