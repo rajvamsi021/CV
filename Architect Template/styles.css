@@ -1,0 +1,416 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+  text-align: center;
+}
+
+
+.navigation-bar {
+  width: 100%;
+  padding: 5px 15px;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  z-index: 1;
+  position: fixed;
+  background-color: black;
+}
+
+.navigation-bar ul {
+  list-style-type: none;
+}
+
+ ul .left-nav {
+  float: left;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.navigation-bar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+ ul .right-nav {
+  float: right;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.navigation-bar ul a {
+  color: white;
+}
+
+
+.navigation-bar ul li:hover {
+  background-color: white;
+  color: black;
+}
+
+#image-text {
+  width: 100%;
+  position: relative;
+}
+
+span {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px;
+  padding: 7px;
+}
+
+.text-center {
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 50%;
+  left: 43%;
+}
+
+#projects {
+  padding: 10px;
+  padding-left: 0;
+}
+
+#projects h3 {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+#projects hr {
+  margin-bottom: 50px;
+  margin-left: 15px;
+  border-style: solid none none none;
+  border-color: grey;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  padding: 10px;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8 {
+  width: 25%;
+  position: relative;
+}
+
+
+.text1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 8px 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.text2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 8px 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.text3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 8px 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.text4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 8px 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.text5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 8px 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.text6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 8px 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.text7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 8px 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.text8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 8px 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#about h3 {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+
+#about hr {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  border-style: solid none none none;
+  border-color: grey;
+}
+
+
+#about p {
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+}
+
+
+
+#cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+#cards img {
+  height: 300px;
+  width: 90%;
+}
+
+#cards h3 {
+  font-size: 25px;
+  font-family: 'Prompt', sans-serif;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+#cards .card-para {
+  color: grey;
+  font-size: 16px;
+}
+
+#cards p {
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.card1, .card2, .card3, .card4 {
+  flex: 25%;
+}
+
+.card1 input {
+  text-align: center;
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.card1 input:hover {
+  background-color: #B2B1B9;
+  cursor: pointer;
+}
+
+
+.card2 input {
+  text-align: center;
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 20px;
+
+}
+
+.card2 input:hover {
+  background-color: #B2B1B9;
+  cursor: pointer;
+}
+
+
+.card3 input {
+  text-align: center;
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 39px;
+}
+
+.card3 input:hover {
+  background-color: #B2B1B9;
+  cursor: pointer;
+}
+
+
+.card4 input {
+  text-align: center;
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 19px;
+}
+
+.card4 input:hover {
+  background-color: #B2B1B9;
+  cursor: pointer;
+}
+
+#contact {
+  margin-top: 70px;
+  text-align: left;
+}
+
+
+#contact h3{
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+
+#contact hr {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  border-style: solid none none none;
+  border-color: grey;
+}
+
+
+#contact p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  margin-left: 22px;
+}
+
+#contact input {
+  overflow-x: hidden;
+  margin-left: 30px;
+  padding: 12px;
+  margin-top: 40px;
+  width: 90%;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#contact .button {
+  padding: 10px;
+  width: 15%;
+  background-color: black;
+  color: white;
+}
+
+#contact .button:hover {
+  background-color: #B2B1B9;
+  color: black;
+  cursor: pointer;
+}
+
+
+.footer-image img {
+  margin-top: 50px;
+  padding: 10px;
+  padding-bottom: 5px;
+}
+
+.footer {
+  background-color: black;
+  padding: 50px 30px;
+  color: white;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer a {
+  color: white;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
