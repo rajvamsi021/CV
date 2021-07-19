@@ -374,7 +374,7 @@ ul .right {
 }
 
 
-#footer .copyright a {
+#footer .copyright a:visited {
   color: white;
 }
 
