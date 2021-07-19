@@ -38,6 +38,14 @@ ul .right {
   padding: 20px;
 }
 
+
+.navigation li:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
 .main-part {
   position: relative;
 }
