@@ -7,3 +7,4 @@
 4. Cab Information Preview Card - Created a web page which consists of information of the cabs available in a 3-column viewable Outlook.
 5. Art Template - A Blog of my Arts created using HTML and CSS.
 6. Architect Template - Created a company's main web site using HTML and CSS which consists of all the details of that respective company. 
+7. Holiday Trip Suggestion ( A Parallax Website ) - Designed a  parallax website of Holiday Trip Suggestion with travel agency facility using HTML and CSS.
