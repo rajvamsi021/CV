@@ -1,0 +1,423 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  position: relative;
+}
+
+.navigation {
+  background-color: black;
+  color: white;
+  height: 60px;
+}
+
+.navigation ul a {
+  color: white;
+}
+
+.navigation ul {
+  list-style-type: none;
+}
+
+ ul .left {
+  font-family: 'Montserrat', sans-serif;
+  float: left;
+  padding: 20px;
+  font-weight: bolder;
+}
+
+
+
+ul .right {
+  font-family: 'Montserrat', sans-serif;
+  float: right;
+  padding: 20px;
+}
+
+.main-part {
+  position: relative;
+}
+
+.main-part img {
+  width: 100%;
+  height: 700px;
+}
+
+.main-text {
+  position: absolute;
+  top: 55%;
+  left: 10%;
+}
+
+.main-text h2 {
+  font-size: 45px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.main-text h2 span {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+
+
+.image1 {
+  background-image: url("https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  opacity: 0.6;
+  position: relative;
+}
+
+
+.text1 {
+  padding: 20px 30px;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 42%;
+  left: 29%;
+  background-color: black;
+  color: white;
+  letter-spacing: 7px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+
+.section1 {
+  text-align: center;
+  height: 320px;
+  padding: 80px 30px 30px;
+}
+
+.section1 h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
+  padding-bottom: 30px;
+  margin-right: 20px;
+}
+
+.section1 p {
+  padding: 0 200px;
+  word-spacing: 5px;
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: lighter;
+}
+
+
+
+.image2 {
+  background-image: url("https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image2.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  opacity: 0.6;
+  position: relative;
+}
+
+
+.text2 {
+  padding: 20px 30px;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 42%;
+  left: 40%;
+  color: white;
+  letter-spacing: 7px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border: 3px solid white;
+}
+
+
+.section2 {
+  text-align: center;
+  height: 280px;
+  padding: 80px 30px 30px;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+}
+
+.section2 h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
+  padding-bottom: 30px;
+  margin-right: 20px;
+}
+
+.section2 p {
+  padding: 0 200px;
+  word-spacing: 5px;
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: lighter;
+}
+
+
+
+.image3 {
+  background-image: url("https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image3.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  opacity: 0.6;
+  position: relative;
+}
+
+
+.text3 {
+  padding: 20px 30px;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 42%;
+  left: 31%;
+  color: white;
+  letter-spacing: 7px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border: 3px solid white;
+}
+
+
+.section3 {
+  text-align: center;
+  height: 280px;
+  padding: 80px 30px 30px;
+  opacity: 0.8;
+}
+
+.section3 h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
+  padding-bottom: 30px;
+  margin-right: 20px;
+}
+
+.section3 p {
+  padding: 0 200px;
+  word-spacing: 5px;
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: lighter;
+}
+
+
+
+.image4 {
+  background-image: url("https://media.gettyimages.com/videos/tower-bridge-london-uk-from-top-view-video-id512588326?s=640x640");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  opacity: 0.7;
+  position: relative;
+}
+
+
+.text4 {
+  padding: 20px 30px;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 42%;
+  left: 38%;
+  background-color: black;
+  color: white;
+  letter-spacing: 7px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+
+#travel-agency h1 {
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 33px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+#travel-agency h1 span {
+  color: blue;
+}
+
+#travel-agency h2 {
+  margin-top: 40px;
+  margin-left: 40px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
+}
+
+#travel-agency h3 {
+  margin-top: 10px;
+  margin-left: 40px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+
+}
+
+#travel-agency .form-filling {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+#travel-agency .form-filling label{
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#travel-agency .form-filling input {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 30%;
+  height: 40px;
+  padding-left: 15px;
+}
+
+#travel-agency .form-filling .button {
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  padding: 5px 5%;
+  background-color: #444444;
+  color: white;
+  border-bottom: none;
+  border-right: none;
+  margin-bottom: 30px;
+}
+
+#travel-agency .form-filling .button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  color: black;
+}
+
+#travel-agency .form-filling input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+::placeholder {
+  font-size: 15px;
+}
+
+
+
+#footer {
+  background-color: black;
+  height: 80px;
+  padding: 30px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+#footer .language option {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+}
+
+#footer .flex .policy1 {
+  margin-right: 25px;
+  padding-right: 25px;
+  border-right: 1.5px solid white;
+
+}
+
+
+#footer .flex .policy2 {
+  margin-right: 25px;
+  padding-right: 25px;
+  border-right: 1.5px solid white;
+
+}
+
+
+#footer .flex .policy3 {
+  margin-right: 25px;
+
+}
+
+
+
+#footer .copyright {
+  padding-bottom: 25px;
+  margin-left: 70px;
+}
+
+
+#fixed {
+  height: 30px;
+  overflow: hidden;
+  width: 220px;
+  position: absolute;
+  bottom: 23px;
+  right: 0;
+  position: fixed;
+  background-color: #FFC947;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+#fixed .part1 {
+  font-size: 18px;
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+
+#fixed:hover {
+  cursor: pointer;
+  height: 200px;
+  padding: 0 5px;
+}
+
+#fixed .part2 {
+  font-size: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-bottom: 10px;
+}
+
+#fixed .part3 {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+#fixed .part3 .row2 {
+  margin-top: 5px;
+}
+
+
+#fixed .part3 a {
+  font-size: 30px;
+  padding: 3px;
+  color: black;
+  margin-right: 12px;
+
+}
