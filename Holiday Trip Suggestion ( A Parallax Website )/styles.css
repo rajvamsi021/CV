@@ -38,13 +38,10 @@ ul .right {
   padding: 20px;
 }
 
-
 .navigation li:hover {
   background-color: white;
   color: black;
 }
-
-
 
 .main-part {
   position: relative;
@@ -382,7 +379,7 @@ ul .right {
 }
 
 
-#footer .copyright a:visited {
+#footer .copyright a {
   color: white;
 }
 
