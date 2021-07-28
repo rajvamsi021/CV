@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+}
+
+
+.circle1 {
+  height: 700px;
+  width: 700px;
+  background: #00704A;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+
+.circle2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 1250px;
+  width: 1250px;
+  background: #00704A;
+  border-radius: 50%;
+  transform: translate(50%,50%);
+}
+
+
+.footer {
+  margin-top: 25px;
+
+}
+
+.footer a {
+  color: black;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 80px;
+  height: 650px;
+  width: 90vw;
+  background: white;
+  margin-right: 80px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.circle3 {
+  float: right;
+  height: 870px;
+  width: 870px;
+  background: #00704A;
+  border-radius: 50%;
+  transform: translate(45%,-33%);
+}
+
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+
+ul {
+  list-style-type: none;
+  float: right;
+  margin-right: 50px;
+
+}
+
+li {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+
+li.active, li:hover {
+  cursor: pointer;
+  background: #00704A;
+  border-radius: 20px;
+  color: white;
+}
+
+
+.text {
+  margin-top: 75px;
+  margin-left: 60px;
+  height: 300px;
+  width: 40%;
+}
+
+span {
+  color: #00704A;
+  font-weight: bold;
+  font-weight: 900;
+}
+
+
+h2 {
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+p {
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+
+button {
+  height: 50px;
+  width: 140px;
+  padding: 10px 20px;
+  background: #00704A;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.main-image img {
+  position: absolute;
+  top: 170px;
+  right: 220px;
+  height: 300px;
+  width: 200px;
+  z-index: 2;
+}
+
+
+.icons {
+  position: absolute;
+  bottom: 50px;
+  right: 730px;
+  z-index: 2;
+  height: 200px;
+  padding-top: 100px;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+.icons img {
+  height: 75px;
+  width: 50px;
+  margin: 0 20px;
+}
+
+
+.icons #green:hover {
+  transition: transform 0.5ss ease-in-out;
+  transform: translateY(-25px);
+}
+
+
+.icons #vanilla:hover {
+  transition: transform 0.5ss ease-in-out;
+  transform: translateY(-25px);
+}
+
+
+.icons #pink:hover {
+  transition: transform 0.5ss ease-in-out;
+  transform: translateY(-25px);
+}
+
+
+.contact {
+  height: 200px;
+  width: 100px;
+  position: absolute;
+  z-index: 2;
+  right: -50px;
+  top: 270px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact a{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
