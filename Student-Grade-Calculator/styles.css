@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #39A6A3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  width: 60vw;
+  height: 60vh;
+  background-color: #373A40;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  box-shadow: 0 35px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  width: 50%;
+  color: #39A6A3;
+  border-left: 3px solid #39A6A3;
+  line-height: 1.5;
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+.text h3 {
+  height: 85px;
+  width: 160px;
+  animation-name: changeShape;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes changeShape {
+  form {
+    height: 85px;
+    width: 160px;
+    font-size: 1.17em
+  }
+  to {
+    height: 100px;
+    width: 180px;
+    font-size: 1.3em;
+  }
+}
+
+
+.form {
+  width: 50%;
+  margin-top: 70px;
+  margin-right: 20px;
+}
+
+.form input{
+  color: white;
+  border: none;
+  border-bottom: 0.1px solid;
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+  width: 60%;
+  padding: 20px;
+  padding-left: 0;
+  background: #373A40;
+}
+
+::placeholder {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+}
+
+.form .show-percent button{
+  padding: 15px;
+  margin-top: 20px;
+  background: #373A40;
+  color: #39A6A3;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  padding-left: 0;
+}
+
+
+.container .result {
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: -50px;
+  color: white;
+  font-size: 20px;
+  display: none;
+}

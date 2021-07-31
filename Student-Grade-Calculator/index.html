@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="text">
+          <h3>STUDENT <br>GRADE <br>CALCULATOR</h3>
+        </div>
+        <div class="form">
+          <input type="text" id="subject1" placeholder="WEB PROGRAMMING">
+          <input type="text" id="subject2" placeholder="MATHS">
+          <input type="text" id="subject3" placeholder="COMPUTER">
+          <input type="text" id="subject4" placeholder="PHYSICS">
+          <div class="show-percent" id="showPercent">
+            <button type="button" name="button">SHOW PERCENT</button>
+          </div>
+        </div>
+      </div>
+      <div class="result" id="displayResults">
+        <p>Out of 400 your total is <span id="sum"></span> and percentage is <span id="percent"></span>%.</p>
+        <p>Your grade is <span id="grade"></span>. You are <span id="position"></span>.</p>
+      </div>
+    </div>
+
+  <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
