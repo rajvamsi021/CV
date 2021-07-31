@@ -9,3 +9,4 @@
 6. Architect Template - Created a company's main web site using HTML and CSS which consists of all the details of that respective company. 
 7. Holiday Trip Suggestion ( A Parallax Website ) - Designed a  parallax website of Holiday Trip Suggestion with travel agency facility using HTML and CSS.
 8. StarBucks Landing Page - StarBucks Official Landing page using HTML , CSS and JavaScript.
+9. Student-Grade-Calculator -- Displays the Total, Percentage and Grade according to the marks entered . Created using HTML, CSS , JavaScript.
