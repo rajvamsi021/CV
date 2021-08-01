@@ -1,13 +1,4 @@
-.red {
-  background: red;
-}
-
-.green {
-  background: green;
-}
-
-
-body {
+.header {
   text-align: center;
 }
 
@@ -31,9 +22,43 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
 }
+
+.card {
+  border: 2px solid black;
+  height: 250px;
+  width: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.card-title {
+  height: 50px;
+}
+
+.viewBtn {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+}
+
+.container-fluid.modal{
+  height: 300px;
+  width: 500px;
+  background: black;
+  color: white;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: none;
+  overflow-y: scroll;
+}
+
 
 
 @media (max-width: 991.98px) {
