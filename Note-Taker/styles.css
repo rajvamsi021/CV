@@ -1,0 +1,44 @@
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+}
+
+
+body {
+  text-align: center;
+}
+
+.col-lg-12 {
+  height: 300px;
+  border: 2px solid black;
+}
+
+.form-group {
+  margin-left: 30px;
+  margin-bottom: 100px;
+}
+
+.form-group input {
+  height: 60px;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 50px;
+}
+
+
+@media (max-width: 991.98px) {
+  .btn {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}
