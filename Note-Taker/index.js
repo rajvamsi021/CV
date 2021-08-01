@@ -49,12 +49,13 @@ function solo() {
 
   // when view button clicked it should display as modal
   var viewBtn = document.querySelectorAll('.viewBtn');
-  viewBtn.forEach(img => img.addEventListener("click", doThis));
-  function doThis() {
+  for(var i=0;i<viewBtn.length;i++) {
+    viewBtn[i].addEventListener("click", doThis);
+  }
+  function doThis(e) {
     var modal = document.querySelector(".container-fluid.modal");
-    var noteText = document.querySelector("#inputText");
     var text = document.querySelector(".text");
-    text.innerHTML = noteText.value;
+    text.innerHTML = e.target.previousElementSibling.innerText;
     modal.style.display = "block";
   }
 
