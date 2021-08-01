@@ -10,3 +10,4 @@
 7. Holiday Trip Suggestion ( A Parallax Website ) - Designed a  parallax website of Holiday Trip Suggestion with travel agency facility using HTML and CSS.
 8. StarBucks Landing Page - StarBucks Official Landing page using HTML , CSS and JavaScript.
 9. Student-Grade-Calculator -- Displays the Total, Percentage and Grade according to the marks entered . Created using HTML, CSS , JavaScript.
+10. Note-Taker -- This is useful to create a short notes and refer it later when required. Created using HTML, CSS, JavaScript.
