@@ -35,3 +35,9 @@ tr:nth-child(2n) {
   text-align: center;
   margin-left: -130px;
 }
+
+
+.del {
+  float: right;
+}
+
