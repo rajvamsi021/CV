@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-title">
+        <h1>Expense Tracker</h1>
+      </div>
+      <div class="header-body">
+        <h3>Add A New Item:</h3>
+      </div>
+    </div>
+    <div class="container">
+      <div class="form-group row">
+          <label for="name">Name:</label>
+          <div class="col-lg-10">
+            <input type="text" class="form-control" id="name" placeholder="Where was the expense made?">
+          </div>
+      </div>
+      <div class="form-group row">
+          <label for="date">Date:</label>
+          <div class="col-lg-4">
+            <input type="date" class="form-control" id="date">
+          </div>
+          <label for="amount">Amount:</label>
+          <div class="col-lg-4">
+            <input type="text" class="form-control" id="amount" placeholder="&#8377; (in Rupee)">
+          </div>
+      </div>
+    </div>
+    <div class="form-group addBtn">
+      <button type="button" class="btn btn-primary mb-2">Add Expense</button>
+    </div>
+    <div class="container">
+      <table class="table">
+        <tr>
+          <th>Name</th>
+          <th>Date</th>
+          <th>Amount</th>
+        </tr>
+        <!--
+        <tr>
+          <td>Raj</td>
+          <td>Vamsi</td>
+          <td>21</td>
+        </tr>
+      -->
+
+      </table>
+    </div>
+    <div class="total-btn">
+      <button type="button" id="total" class="btn btn-primary mb-2">View Total Expense Amount</button>
+    </div>
+
+
+
+  <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
