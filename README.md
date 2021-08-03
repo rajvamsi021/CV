@@ -12,3 +12,4 @@
 9. Student-Grade-Calculator -- Displays the Total, Percentage and Grade according to the marks entered . Created using HTML, CSS , JavaScript.
 10. Note-Taker -- This is useful to create a short notes and refer it later when required. Created using HTML, CSS, JavaScript.
 11. Expense-Tracker -- Displays the expenses used by an individual and also calculates the total expense. Created using HTML, CSS, JavaScript.
+12. Memory-Game -- Created a simple memory game using JavaScript.
