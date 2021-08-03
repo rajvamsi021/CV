@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-body {
+  color: red;
+}
+
+.cont {
+  padding: 150px 550px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.elephant {
+  height: 100px;
+  width: 100px;
+  background: green;
+  position: relative;
+}
+
+.elephant img {
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    z-index: -1;
+}
+
+.frog {
+  height: 100px;
+  width: 100px;
+  background: green;
+  position: relative;
+}
+
+.frog img {
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.rabbit {
+  height: 100px;
+  width: 100px;
+  background: green;
+  position: relative;
+}
+
+.rabbit img {
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.pigeon {
+  height: 100px;
+  width: 100px;
+  background: green;
+  position: relative;
+}
+
+.pigeon img {
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    z-index: -1;
+}
